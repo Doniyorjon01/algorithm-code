@@ -24,6 +24,7 @@ def reverse_digit(num: int):
         digit = num % 10
         result += digit
         num //= 10
+
     return result
 
-print(reverse_digit(710))
+print(reverse_digit(154))
