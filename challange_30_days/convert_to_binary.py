@@ -10,6 +10,8 @@ bunign uchun sonni avval 2 ga qoldiqli bolamiz(%) shunda bizga qoldig'ini olib b
 1 % 2 = 1 buni ham saqlaymiz
 1 // 2 = 0
 natija = 1011
+keyin buni teskari qilib chiqarib beramiz
+natija[::-1]
 """
 
 def convert_to_binary(num: int) -> str:
@@ -19,6 +21,5 @@ def convert_to_binary(num: int) -> str:
         result += str(digit)
         num = num // 2
 
-    return result
+    return result[::-1]
 
-print(convert_to_binary(13))

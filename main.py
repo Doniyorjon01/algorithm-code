@@ -70,3 +70,4 @@ heap katta obyetklar ni saqlaydi. hajmi ham katta bo'ladi sekin ishlaydi va tart
 """
 asyncio bu pythonda asinxron dastrurlash uchun ishlatiladi. 
 """
+
