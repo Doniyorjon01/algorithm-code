@@ -5,12 +5,12 @@ class Node:
 
     def __str__(self):
         return str(self.val)
-
+# [1, 2, 3, 4, 5, 6, 7]
 def reverse(head: Node):
     prev = None
     curr = head
     while curr is not None:
-        nxt = curr.next
+        nxt = curr.next # nxt = 2
         curr.next = prev
         prev = curr
         curr = nxt
