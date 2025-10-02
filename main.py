@@ -71,3 +71,11 @@ heap katta obyetklar ni saqlaydi. hajmi ham katta bo'ladi sekin ishlaydi va tart
 asyncio bu pythonda asinxron dastrurlash uchun ishlatiladi. 
 """
 
+arr = list(input().replace(" ", "").split(","))
+summ = 0
+for i in arr:
+    if i == i:
+        summ += 1
+    if i != 2:
+        print(i)
+    print(summ)
